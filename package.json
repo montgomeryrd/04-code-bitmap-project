@@ -1,0 +1,28 @@
+{
+  "name": "03-code-async-callbacks",
+  "version": "1.0.0",
+  "description": "Asynchronous Callbacks",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/montgomeryrd/03-code-async-callbacks.git"
+  },
+  "author": "Richard Montgomery",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/montgomeryrd/03-code-async-callbacks/issues"
+  },
+  "homepage": "https://github.com/montgomeryrd/03-code-async-callbacks#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "fs": "0.0.1-security",
+    "jest": "^22.4.3"
+  },
+  "keywords": []
+}
