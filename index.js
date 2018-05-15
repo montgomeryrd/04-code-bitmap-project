@@ -31,3 +31,13 @@ if(type === 'mono') {
     reader.readAndWrite('./assets/bitmap.bmp', './assets/monochromatic.bmp', 'mono');
     reader.readAndWrite('./assets/bitmap.bmp', './__test__/assets/monochromatic.bmp', 'mono');
 };
+
+if(type === 'red') {
+    reader.readAndWrite('./assets/bitmap.bmp', './assets/moreRed.bmp', 'red');
+    reader.readAndWrite('./assets/bitmap.bmp', './__test__/assets/moreRed.bmp', 'red');
+};
+
+if(type === 'blue') {
+    reader.readAndWrite('./assets/bitmap.bmp', './assets/moreBlue.bmp', 'blue');
+    reader.readAndWrite('./assets/bitmap.bmp', './__test__/assets/moreBlue.bmp', 'blue');
+};
