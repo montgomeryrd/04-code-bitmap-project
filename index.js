@@ -37,6 +37,11 @@ if(type === 'red') {
     reader.readAndWrite('./assets/bitmap.bmp', './__test__/assets/moreRed.bmp', 'red');
 };
 
+if(type === 'green') {
+    reader.readAndWrite('./assets/bitmap.bmp', './assets/moreGreen.bmp', 'green');
+    reader.readAndWrite('./assets/bitmap.bmp', './__test__/assets/moreGreen.bmp', 'green');
+};
+
 if(type === 'blue') {
     reader.readAndWrite('./assets/bitmap.bmp', './assets/moreBlue.bmp', 'blue');
     reader.readAndWrite('./assets/bitmap.bmp', './__test__/assets/moreBlue.bmp', 'blue');
